@@ -19,19 +19,24 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/78e14254-e69d-4aef-9cd4-6628ede29eb6/files/19dd7440-a1dd-435d-9ba4-ce6f57a033ca.jpg"
+          alt="Деревня Чувашии"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="absolute inset-0 bg-black/40 z-[1]" />
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-sm md:text-base uppercase tracking-[0.3em] mb-4 opacity-80">Чувашия → Чебоксары</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-tight">
+          МОБИЛЬНЫЙ<br />ФЕРМЕР
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-2xl max-w-2xl mx-auto opacity-90 mb-8 font-light">
+          Свежесть из деревни — в каждый дом
         </p>
+        <button className="bg-white text-black px-8 py-3 text-sm uppercase tracking-widest font-semibold hover:bg-transparent hover:text-white border border-white transition-all duration-300 cursor-pointer">
+          Заказать набор
+        </button>
       </div>
     </div>
   );
